@@ -24,7 +24,7 @@ from DaisyXMusic.helpers.filters import command, other_filters
 from DaisyXMusic.helpers.decorators import authorized_users_only
 from DaisyXMusic.helpers.gets import get_file_name, get_url
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, Voice
-from DaisyXMusi.services.converter.converter import convert
+from DaisyXMusic.services.converter.converter import convert
 from DaisyXMusic.function.admins import admins as a
 from PIL import Image, ImageFont, ImageDraw
 
