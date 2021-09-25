@@ -600,7 +600,7 @@ async def play(_, message: Message):
                 ]
             )
             await message.reply_photo(
-                photo=f"{THUMB_IMG}",
+                photo=f"{BG_IMAGE}",
                 caption=toxxt,
                 reply_markup=keyboard
             )
