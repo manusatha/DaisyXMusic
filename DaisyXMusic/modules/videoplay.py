@@ -17,7 +17,7 @@ from DaisyXMusic.helpers.admins import get_administrators
 from youtube_search import YoutubeSearch
 from DaisyXMusic.services.callsmusic.callsmusic import client as USER
 from pyrogram.errors import UserAlreadyParticipant
-from DaisyXMusic.seevices.downloaders import youtube
+from DaisyXMusic.services.downloaders import youtube
 
 from DaisyXMusic.config import que, THUMB_IMG, DURATION_LIMIT, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT, ASSISTANT_NAME
 from DaisyXMusic.helpers.filters import command, other_filters
