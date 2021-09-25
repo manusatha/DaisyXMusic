@@ -19,7 +19,7 @@ from DaisyXMusic.services.callsmusic.callsmusic import client as USER
 from pyrogram.errors import UserAlreadyParticipant
 from DaisyXMusic.services.downloaders import youtube
 
-from DaisyXMusic.config import que, BG_IMAGE, DURATION_LIMIT, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, GROUP_SUPPORT, ASSISTANT_NAME
+from DaisyXMusic.config import que, BG_IMAGE, DURATION_LIMIT, BOT_USERNAME, BOT_NAME, UPDATES_CHANNEL, SUPPORT_GROUP, ASSISTANT_NAME
 from DaisyXMusic.helpers.filters import command, other_filters
 from DaisyXMusic.helpers.decorators import authorized_users_only
 from DaisyXMusic.helpers.gets import get_file_name, get_url
